@@ -63,3 +63,7 @@
 # l=[10,20,30]
 # c=l.index(20)
 # print(c)
+
+        # l.sort()
+        # l.reverse()
+        # l.copy()
