@@ -1,0 +1,17 @@
+# another way of reverse a string
+# a=input("enter the word")
+# print(a[::-1])
+
+# skip to charactor
+# a=input("enter the word")
+# print(a[::2])
+
+# format in string
+# a=input("enter the word")
+# b=input("enter the word")
+# print("{:<10}{:10}".format(a,b))
+
+#capitalize and lower
+# a="welcome"
+# print(a.capitalize())
+# print(a.islower())
