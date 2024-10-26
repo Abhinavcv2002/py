@@ -82,3 +82,22 @@
 #         j=j+1
 #         print(j,end=" ")
 #     print()
+
+# Q.  PRINT THE PYRAMID
+# for i in range(0,5):
+#     for j in range(0,5-i-1):
+#         print('',end=" ")
+#     for j in range(0,i+1):
+#         print('*',end=" ")
+#     print()
+
+
+# Q. PRINT ALPHA A B C 
+#                D E F
+#                G H I
+# alpha=65
+# for i in range(3):
+#     for i in range(3):
+#         print(chr(alpha),end=" ")
+#         alpha+=1
+#     print()
