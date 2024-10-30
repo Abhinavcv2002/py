@@ -1,5 +1,11 @@
        #SET DATA TYPE
 
+#collection of elements, And duplicate element not allowed
+#set is unorderd 
+#set to insert a set impossible
+#tuple to insert a set possible
+
+#----------------------------------------------------------------------------------------------------------#
     #add method
 # s=set()
 # s.add(1)
@@ -26,9 +32,9 @@
 
 #----------------------------------------------------------------------------------------------------------#
     #discard method
-# s={1,2,3,4}
-# s.discard(3)
-# print(s)
+s={1,2,3,4}
+s.discard(3)
+print(s)
 
 #----------------------------------------------------------------------------------------------------------#
    
