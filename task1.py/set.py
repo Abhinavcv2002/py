@@ -32,16 +32,16 @@
 
 #----------------------------------------------------------------------------------------------------------#
     #discard method
-s={1,2,3,4}
-s.discard(3)
-print(s)
+# s={1,2,3,4}
+# s.discard(3)
+# print(s)
 
 #----------------------------------------------------------------------------------------------------------#
    
 # s1={1,2,3,8}
 # s2={1,2,3,4,5,6}
 
-# print(s2.difference(s1))                   #difference method
+# print(s2.difference(s1))                   #difference method  
 # print(s2.intersection(s1))                 #intersection method
 # print(s2.isdisjoint(s1))                   #isdisjoint method
 # print(s2.issubset(s1))                     #issubset method
