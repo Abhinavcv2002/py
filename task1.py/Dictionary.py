@@ -33,9 +33,9 @@
 
 #update method
 
-# d= {1: 'abhi', 2: 'vinayak', 3: 'akshay'}
-# print(d)
-# d.update({'1':'manu'})
+d= {1: 'abhi', 2: 'vinayak', 3: 'akshay'}
+d.update({1:'manu'})
+print(d)
 
 # limit=int(input("enter the limit"))
 # students=[] 
@@ -114,32 +114,34 @@
 #---------------------------------------------------------------------------------------------------#
 
 # calculater
-x=int(input("enter 1st number"))
-y=int(input("enter 2nd number"))
+# x=int(input("enter 1st number"))
+# y=int(input("enter 2nd number"))
 
-def add(x,y):
-    c=x+y
-    return c
-def sub(x,y):
-    c=x-y
-    return c
-def mul(x,y):
-    c=x*y
-    return c
-print("""
-         1.addition
-         2.subraction
-         3.multiplication
+# def add(x,y):
+#     c=x+y
+#     return c
+# def sub(x,y):
+#     c=x-y
+#     return c
+# def mul(x,y):
+#     c=x*y
+#     return c
+# print("""
+#          1.addition
+#          2.subraction
+#          3.multiplication
       
-      """)
-sum=add(1)
-print(sum)
-sum=sub(2)
-print(sum)
-sum=mul(3)
-print(sum)
-
-sum=int(input("enter your choice"))
+#       """)
+# if(c==1):
+#     print(a+b)
+# elif(c==2):
+#     print(a-b)
+# elif(c==3):
+#     print(a*b)
+# else:
+#     print("invalid")
+    
+#     sum=int(input("enter your choice"))
 
 
 #---------------------------------------------------------------------------------------------------#
