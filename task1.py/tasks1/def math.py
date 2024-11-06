@@ -62,6 +62,13 @@
 #-----------------------------------------------------------------------------#
 
 #Build in functions
+
+#3 Types of functions
+
+    #map
+    #filter
+    #reduce
+        
 #map (function,itrable)
 
 # l=[1,2,3,4]
@@ -70,10 +77,41 @@
 
 #def method                   sqaure methods
  
-a=[1,2,3,4]
-def sqaure(x):
-    return x*x
-res=list(map(sqaure,a))
-print(res)
+# a=[1,2,3,4]
+# def sqaure(x):
+#     return x*x
+# res=list(map(sqaure,a))
+# print(res)
 
 #-----------------------------------------------------------------------------#
+
+#filter finction
+
+# l=[1,2,3,4,5,6]
+# even=list(filter(lambda x:x%2==0,l))
+# print(even)
+
+#def method                   even methods
+
+# a=[1,2,3,4,5,6]
+# def even(x):
+#     return x%2==0
+# res=list(filter(even,a))
+# print(res)
+
+#-----------------------------------------------------------------------------#
+
+# from functools import reduce
+
+# l=[1,2,3,4,5]
+# res=reduce(lambda x,y:x*y,l)
+# print(res)
+
+# from functools import reduce
+
+# l=[1,2,3,4,5]
+# res=reduce(lambda x,y:x+y,l)
+# print(res)
+
+#-----------------------------------------------------------------------------#
+
