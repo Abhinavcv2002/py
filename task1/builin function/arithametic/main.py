@@ -14,14 +14,17 @@ while True:
     
     if choice == 1:
         a,b=number()
-        add()
+        add(a,b)
     elif choice==2:
         a,b=number()
-        sub()
+        sub(a,b)
     elif choice==3:
         a,b=number()
-        mul()
+        mul(a,b)
     elif choice==4:
         a,b=number()
-        div()
-        
+        div(a,b)
+    elif choice==5:
+        break
+    else:
+        print("invalid")
